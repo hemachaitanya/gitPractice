@@ -1,4 +1,14 @@
-### Git:
+
+## VCS
+    two types of vcs are present
+    (1) centralized: SVN , CVS , perforces ,TFS  etc...
+    (2) distributed: git , mercurial ,fossil
+        * no single point of failure , every developer  has local repository .
+        * performanc eis more
+        * wihout network also developer contines his work , 
+### Git: global information trader
+ * git is a distributed  vcs , git is developed by 'linus torvalds'
+
 ### branching stratagy
 
     The git flow branching strategy is very effective branching strategy for the projects. If the project under development needs to support the older releases made then the git flow can be extended with support branches For the support branches i have found useful resource
