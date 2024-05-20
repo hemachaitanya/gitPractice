@@ -16,21 +16,21 @@
 
 ![Images](./Images/one.png)
 
-![Images](./Images/two.png)
+![Images](E:\gitPractice\Images\two.jpg)
 
-![Images](./Images/three.png)
+![Images](E:\gitPractice\Images\three.jpg)
 
-![Images](./Images/four.png)
+![Images](E:\gitPractice\Images\four.jpg)
 
-![Images](./Images/five.png)
+![Images](E:\gitPractice\Images\five.jpg)
 
-![Images](./Images/six.png)
+![Images](E:\gitPractice\Images\six.jpg)
 
-![Images](./Images/seven.png)
+![Images](E:\gitPractice\Images\seven.jpg)
 
-![Images](./Images/eight.png)
+![Images](E:\gitPractice\Images\eight.jpg)
 
-![images](./Images/9nine.png)
+![images](E:\gitPractice\Images\nine.jpg)
 
 
 
