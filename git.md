@@ -14,21 +14,21 @@
     The git flow branching strategy is very effective branching strategy for the projects. If the project under development needs to support the older releases made then the git flow can be extended with support branches For the support branches i have found useful resource
 ![Images](./Images/1.png)
 
-![images](./Images/one.png)
+![Images](./Images/one.png)
 
-![iage](./Images/two.png)
+![Images](./Images/two.png)
 
-![images](./Images/three.png)
+![Images](./Images/three.png)
 
-![images](./Images/four.png)
+![Images](./Images/four.png)
 
-![images](./Images/five.png)
+![Images](./Images/five.png)
 
-![images](./Images/six.png)
+![Images](./Images/six.png)
 
-![images](./Images/seven.png)
+![Images](./Images/seven.png)
 
-![images](./Images/eight.png)
+![Images](./Images/eight.png)
 
 ![images](./Images/9nine.png)
 
