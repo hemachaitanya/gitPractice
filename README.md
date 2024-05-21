@@ -23,11 +23,11 @@
   
   
      
-     git branch <name>
+     git branch branch-name
     
-     git checkout -b <branch name>
+     git checkout -b branch name
     
-     git branch -m <oldname> <new name>
+     git branch -m oldname new name
 
 ## git squash
 
