@@ -56,4 +56,33 @@ when we change only in the future branch , we cannot change in the main branches
 
 * git merge feature --noff
 
+
+Incase we can change the both main branch and feature branch , we use the 3 ways to merge the code in to main branch
+
+    
+
+### 3 way merge 
+
+*  this merge will be done only in main branch & feature and main branch changes forms some extra commit is called 3 way merge
+
+* git checkout master
+
+* git merge feature
+
+### git rebase 
+
+* inthese case we merge the code in both branches eaither in feature or main branch
+
+* git checout master (or) feature
+
+* git merge feature (or) master
+
+* it have 2 parents , and after merge the commit ids will be changes
+
+[referhere](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+
+
+
+
+
   
