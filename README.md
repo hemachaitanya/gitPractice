@@ -82,6 +82,9 @@ Incase we can change the both main branch and feature branch , we use the 3 ways
 [referhere](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
 
+[refer-git-complete-documentation](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert)
+
+
 
 
 
