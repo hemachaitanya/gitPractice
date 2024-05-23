@@ -34,6 +34,85 @@
 ![images](./Images/nine.jpg)
 
 
+### incase new employ will come to your team how you add the person into the git hub repository
+
+* create githubrepo
+
+* create some private or public repo
+
+* go to that perticular git repo
+
+* click that repo >> in top view we had some settings option click
+
+* in left we get some options access >> collaborators click
+
+* add people >> user already have github account git userid : (mail id ) gives here
+
+### how to manage many users in single laptop
+
+
+
+### how to resolve multiple confilcts comes in git repo
+
+
+* Pull Latest Changes:
+
+Before making any changes, ensure you have the latest changes from the remote repository. Use git pull to fetch and merge the latest changes into your local branch.
+Identify Conflicts:
+
+When you encounter conflicts, VSCode will indicate them in the source code files. Conflicts typically appear between <<<<<<< HEAD, =======, and >>>>>>> <branch-name> markers.
+*
+* Open the File:
+
+Navigate to the conflicted file in VSCode. Click on it to open it in the editor.
+Resolve Conflicts:
+
+* Inside the conflicted file, VSCode provides a user-friendly interface for resolving conflicts. You can:
+Manually edit the conflicting sections, keeping the changes you want to keep and removing the rest.
+Use the built-in Merge Conflict Resolution tool provided by VSCode to accept incoming or current changes selectively.
+Choose to accept either all changes from one side or the other.
+
+* Save Changes:
+
+Once you've resolved the conflicts, save the file.
+Stage Changes:
+
+After resolving conflicts in all files, stage the changes using git add <file> or git add . if resolving conflicts in multiple files.
+
+* Commit Changes:
+
+Commit the resolved changes with a descriptive commit message using git commit.
+Push Changes:
+
+Finally, push the changes to the remote repository using git push.
+Test Changes:
+
+After resolving conflicts and pushing changes, ensure that the application still functions as expected. You may need to run tests or perform manual testing depending on your project's workflow.
+Communicate:
+
+Communication is key, especially in a team setting. If you encounter conflicts that require input from other team members, reach out to them for clarification or collaboration.
+By following these steps and leveraging the features provided by VSCode, you can efficiently resolve conflicts in a Git repository within an organizational context while maintaining code integrity and collaboration.
+
+
+### in github accounts i want to use two or more github accounts in a one system(lap) 
+
+*  goto the controle panel in our system >> click and open controle panel
+
+*  we see multiple options >> user accounts >> click
+
+*  goto the credentials manage >> click
+
+*  windows creadentials >> click
+
+*  git:https://github.com >> click  (you will shows the github account credentials )
+
+*  then open the terminal and  create .ssh-key
+
+*  for each account you give that ssh-key >>>  ssh-keygen -t rsa -b 4096 -C "hemuchaitu203@outlook.com"
+
+[referlinkhere](https://medium.com/@gperakis/how-to-manage-multiple-github-accounts-on-one-machine-4901bd4332df)
+
+
 
 ### Jenkins
 
@@ -236,9 +315,7 @@ Test Kitchen
 ### What is Kitchen
 
 Kitchen is a test harness tool to execute Infrastructure as Code(IaC) on one or more platforms
-To execute in multiple platforms kitchen have a driver plugin architecture.
-
-#
+To execute in multiple platforms kitchen have a driver plugin architecture
 
 
 
