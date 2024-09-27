@@ -431,3 +431,154 @@ To execute in multiple platforms kitchen have a driver plugin architecture
 
 
 
+Here are common Git commands used by DevOps engineers in their day-to-day activities:
+
+
+*Basic Git Commands*
+
+
+1. `git init` - Initialize a Git repository.
+
+Example: `git init my-project`
+
+1. `git clone` - Clone a repository.
+
+Example: `git clone (link unavailable)
+
+1. `git add` - Stage changes.
+
+Example: `git add .`
+
+1. `git commit` - Commit changes.
+
+Example: `git commit -m "Initial commit"`
+
+1. `git log` - View commit history.
+
+Example: `git log --oneline`
+
+1. `git status` - Check repository status.
+
+Example: `git status`
+
+1. `git branch` - Create/manage branches.
+
+Example: `git branch feature/new-feature`
+
+1. `git checkout` - Switch branches.
+
+Example: `git checkout feature/new-feature`
+
+1. `git merge` - Merge branches.
+
+Example: `git merge feature/new-feature`
+
+1. `git remote` - Manage remote repositories.
+
+Example: `git remote add origin (link unavailable)
+
+
+*Git Workflow Commands*
+
+
+1. `git pull` - Pull changes from remote repository.
+
+Example: `git pull origin master`
+
+1. `git push` - Push changes to remote repository.
+
+Example: `git push origin master`
+
+1. `git fetch` - Fetch changes from remote repository.
+
+Example: `git fetch origin`
+
+1. `git rebase` - Rebase changes.
+
+Example: `git rebase master`
+
+1. `git tag` - Create/delete tags.
+
+Example: `git tag -a v1.0 -m "Release 1.0"`
+
+
+*Git Troubleshooting Commands*
+
+
+1. `git diff` - View changes.
+
+Example: `git diff`
+
+1. `git reset` - Reset changes.
+
+Example: `git reset --hard`
+
+1. `git clean` - Remove untracked files.
+
+Example: `git clean -fd`
+
+1. `git stash` - Stash changes.
+
+Example: `git stash`
+
+1. `git cherry-pick` - Apply specific commits.
+
+Example: `git cherry-pick <commit-hash>`
+
+
+*Git DevOps Commands*
+
+
+1. `git submodule` - Manage submodules.
+
+Example: `git submodule add (link unavailable)
+
+1. `git hooks` - Manage Git hooks.
+
+Example: `git hooks --install`
+
+1. `git bisect` - Find bugs.
+
+Example: `git bisect start`
+
+1. `git archive` - Create archives.
+
+Example: `git archive -o archive.zip master`
+
+1. `git filter-branch` - Rewrite commit history.
+
+Example: `git filter-branch --tree-filter 'rm -rf unwanted-file' HEAD`
+
+
+*CI/CD Pipeline Git Commands*
+
+
+1. `git clone --depth 1` - Shallow clone.
+
+Example: `git clone --depth 1 (link unavailable)
+
+1. `git checkout --force` - Force checkout.
+
+Example: `git checkout --force ${CI_COMMIT_SHA}`
+
+1. `git pull --ff-only` - Fast-forward pull.
+
+Example: `git pull --ff-only origin ${CI_COMMIT_BRANCH}`
+
+1. `git push --set-upstream` - Push with upstream.
+
+Example: `git push --set-upstream origin ${CI_COMMIT_BRANCH}`
+
+1. `git rev-parse` - Parse Git revisions.
+
+Example: `git rev-parse ${CI_COMMIT_SHA}`
+
+
+Note: These commands are not exhaustive, but they cover most common use cases.
+
+
+Would you like more information on Git or DevOps practices?
+
+
+
+
