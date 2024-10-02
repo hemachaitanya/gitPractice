@@ -130,6 +130,12 @@ Incase we can change the both main branch and feature branch , we use the 3 ways
 * clone have only one central repo , fork have two individual central repos
 
 
+### git log --log-size (or) git log --oneline --log-size
+
+* it shows commit msg size also
+
+
+
 [referhere](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
 
