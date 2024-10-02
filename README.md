@@ -79,6 +79,51 @@ Incase we can change the both main branch and feature branch , we use the 3 ways
 
 * it have 2 parents , and after merge the commit ids will be changes
 
+### difference b/w git init ,git clone
+
+* git init: creates new repository , it create .git folder and metadata dependencies
+
+    --bare
+
+* Creates a bare repository. it does not containes working directory 
+    
+
+    --template=path
+
+* Specifies the directory from which templates will be used
+
+    --quite
+
+    
+* Only prints "critical level" messages, Errors, and Warnings. All other output is silenced
+
+     --separate-git-dir 
+     
+* on an existing repository and the .git dir will be moved to the specified  path.
+
+
+* git clone : copy of  existing git repository
+
+
+## git blame <filename>
+
+* it shows the all commits history  across rename and copies for all commit messages
+
+#### git blame -L 10,15 (for specific lines)
+
+#### git blame 
+
+![blame](./Images/blame.png)
+
+![lines](./Images/line-blame.png)
+
+* git blame -L 11,16 .\README.md
+
+* git blame -R .\README.md
+
+* git blame -M .\README.md
+
+
 [referhere](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
 
