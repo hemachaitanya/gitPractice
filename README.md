@@ -134,6 +134,8 @@ Incase we can change the both main branch and feature branch , we use the 3 ways
 
 * it shows commit msg size also
 
+#### git commit -m --allow-empty " "
+
 
 
 [referhere](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
