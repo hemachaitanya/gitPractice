@@ -123,6 +123,12 @@ Incase we can change the both main branch and feature branch , we use the 3 ways
 
 * git blame -M .\README.md
 
+#### git fork and clone
+
+* git fork is copy of remort to remort repos , but git clone have copy of remort to local 
+
+* clone have only one central repo , fork have two individual central repos
+
 
 [referhere](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
